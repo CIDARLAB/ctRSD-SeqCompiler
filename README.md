@@ -3,6 +3,11 @@ A Static Webpage for compiling ctRSD Circuit Components.
 
 Based on https://github.com/usnistgov/ctRSD-simulator
 
+<p align="center">
+  <img src="images/Frontend.png" alt="frontend" width="600"/>
+</p>
+
+
 ## Docs
 https://ctrsd-simulator.readthedocs.io/en/latest/
 
