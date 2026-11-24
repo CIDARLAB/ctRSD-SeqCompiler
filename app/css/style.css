@@ -1,0 +1,252 @@
+.btn-default {
+    color: #222222;
+    background-color: white;
+    border-color: white;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    color: #222222;
+    background-color: #f2f2f2;
+    border-color: #ededed;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    background-color: white;
+    border-color: white;
+}
+
+.btn-default .badge {
+    color: white;
+    background-color: #222222;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #F05F40;
+    border-color: #F05F40;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #ee4b28;
+    border-color: #ed431f;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #F05F40;
+    border-color: #F05F40;
+}
+
+.btn-primary .badge {
+    color: #F05F40;
+    background-color: white;
+}
+
+.btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+.circle-float-btn:hover {
+    box-shadow: 0px 4px 5px #CCCCCC;
+}
+
+.circle-float-btn:active {
+    box-shadow: 0px 4px 5px #CCCCCC;
+    background-color: #EEEEEE;
+}
+
+#btn-holder {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-holder {
+    margin-top: auto;
+}
+
+.circle-float-btn {
+    background-color: rgb(223, 216, 216);
+    width: 150px;
+    height: 150px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 75px;
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 2px 5px #EEEEEE;
+    -webkit-transition: box-shadow ease-in-out .35s;
+    -moz-transition: box-shadow ease-in-out .35s;
+    transition: box-shadow ease-in-out .35s;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.btn-img {
+    margin-left: -5px;
+    margin-top: -1px;
+}
+
+.circle-float-btn img {
+    opacity: 0.5;
+    -webkit-transition: box-shadow .35s, opacity ease-in-out .35s;
+    -moz-transition: box-shadow .35s, opacity ease-in-out .35s;
+    transition: box-shadow .35s, opacity ease-in-out .35s;
+}
+
+.circle-float-btn:hover img.btn-img {
+    opacity: 1;
+}
+
+.tooltip-templates {
+    display: none;
+}
+
+/************
+ SWEET ALERT
+*************/
+.swal-button--confirm {
+    background-color: #F05F40;
+}
+
+.swal-button--confirm:not([disabled]):hover{
+    background-color: #d35234
+}
+
+.swal-button--confirm:active {
+    background-color: #b85435;
+}
+
+.swal-content__input {
+    border-color: #bbbbbb;
+}
+
+.swal-content__input:focus,.swal-content__textarea:focus{
+    border-color:#999
+}
+
+.enumeration-swal .swal-content{
+    height: 400px
+}
+
+.score-swal .swal-content{
+    height: 200px
+}
+
+#main,
+.page-heading {
+  width: 100%;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+#result:not(:empty) {
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    margin: 14px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#result pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.full-result-toggle {
+    display: table;
+    margin: 0 auto;
+    cursor: pointer;
+    list-style: none;
+}
+
+.full-result-toggle::-webkit-details-marker {
+    display: none;
+}
+
+.nist-footer-bottom {
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+
